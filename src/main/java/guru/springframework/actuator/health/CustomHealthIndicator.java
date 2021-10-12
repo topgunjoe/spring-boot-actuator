@@ -2,13 +2,14 @@ package guru.springframework.actuator.health;
 
 import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;
+import org.springframework.stereotype.Component;
 
 import java.util.Random;
 
 /**
  * Created by jt on 12/3/16.
  */
-//@Component
+@Component
 public class CustomHealthIndicator implements HealthIndicator {
 
     @Override
